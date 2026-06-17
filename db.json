@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Play-Doh",
+      "description": "Masas moldeables creativas para niños de 3 a 8 años",
+      "price": 8
+    },
+    {
+      "id": "3",
+      "name": "Hot Wheels",
+      "description": "Autos de colección y juego para niños mayores de 4 años",
+      "price": 12
+    },
+    {
+      "id": "4",
+      "name": "Lego",
+      "description": "Piezas de construcción para adolescentes y adultos",
+      "price": 10
+    }
+  ]
+}
