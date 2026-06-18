@@ -18,5 +18,6 @@
       "description": "Piezas de construcción para adolescentes y adultos",
       "price": 10
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
