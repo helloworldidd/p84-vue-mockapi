@@ -54,10 +54,9 @@ export const useProductStore = defineStore('product', () => {
 
     }
 
-    async function updateProduct() {
+    async function updateProduct(id, productData) {
+
     }
-
-
 
 
 
