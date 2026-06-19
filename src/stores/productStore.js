@@ -40,8 +40,6 @@ export const useProductStore = defineStore('product', () => {
         const response = await axios.post(API_URL, product)
 
         products.value.push(response.data)
-
-
     }
 
     async function deleteProduct(id) {
@@ -49,13 +47,19 @@ export const useProductStore = defineStore('product', () => {
 
         products.value = products.value.filter(
             product => product.id !== id)
-
-
-
     }
 
     async function updateProduct(id, productData) {
+        const response = await axios.put(
+            `${API_URL}/${id}`,
+            productData
+        )
 
+        const index = products.value.findIndex(
+            product => product.id === id
+        )
+
+        products.value[index] = response.data
     }
 
 

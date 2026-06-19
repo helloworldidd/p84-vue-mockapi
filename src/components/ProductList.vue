@@ -27,6 +27,17 @@ onMounted(() => {
           @click="productStore.deleteProduct(product.id)">
             Borrar
           </button>
+          <router-link
+            class="btn btn-secondary m-1"
+            :to="{
+              name:'product-edit',
+              params: {
+                id: product.id
+              },
+            }"
+          >
+            Actualizar
+          </router-link>
 
         </div>
       </div>

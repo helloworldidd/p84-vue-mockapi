@@ -7,10 +7,10 @@
       "id": "2"
     },
     {
-      "id": "3",
       "name": "Hot Wheels",
       "description": "Autos de colección y juego para niños mayores de 4 años",
-      "price": 12
+      "price": 34,
+      "id": "3"
     },
     {
       "id": "4",
@@ -19,10 +19,16 @@
       "price": 10
     },
     {
-      "name": "pelota de futbol",
-      "description": "par achutear",
-      "price": 1000,
+      "name": "Pelota de futbol",
+      "description": "Para chutear",
+      "price": 2000,
       "id": "0LME7KLAyeQ"
+    },
+    {
+      "name": "Autito de juguete",
+      "description": "Auto en miniatura",
+      "price": 100,
+      "id": "RJ5DSB4GxWw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

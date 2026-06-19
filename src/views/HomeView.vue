@@ -11,16 +11,11 @@ import ProductList from '../components/ProductList.vue';
   <h1 class="text-center">CRUD</h1>
   <p class="text-center">
     <i class="bi bi-pencil-square"></i> create,
-    <i class="bi bi-eye-fill"></i> read,
+    <i class="bi bi-eye"></i> read,
     <i class="bi bi-arrow-clockwise"></i> update,
-    <i class="bi bi-trash-fill"></i> delete
+    <i class="bi bi-trash2"></i>delete
   </p>
-  <p class="text-center">
-    <i class="bi bi-pencil-square"></i> crear,
-    <i class="bi bi-eye-fill"></i> leer,
-    <i class="bi bi-arrow-clockwise"></i> actualizar,
-    <i class="bi bi-trash-fill"></i> borrar
-  </p>
+
     
 <ProductForm />
 <hr>
